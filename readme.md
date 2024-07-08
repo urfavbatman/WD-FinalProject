@@ -6,14 +6,14 @@
 <div align="center">
   <a href="https://github.com/urfavbatman/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="/assets/img/dota 2 logo.png" alt="dota2" width="130" height="100">
+    <img src="/assets/img/spooder.png" alt="spooder" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">My Website</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
- This website showcases distinct design layouts for different features using pure HTML and CSS. Navigate to the feature pages to see different layouts.
+ The portfolio webpage for Manuel Ramos is designed to highlight his profile and projects attractively and clearly. It features a header with navigation links to various sections like Home, About, Projects, Contact, and Credit, making it easy to explore the site.
 </div>
 
 <br />
@@ -58,15 +58,18 @@
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 
-To demonstrate creative and distinct design layouts using pure HTML and CSS. The project features a landing page and multiple feature pages, each showcasing unique layout designs. It's all about showing off web design skills and maintaining clean, organized code.
+To showcase the profile and projects of Manuel Ramos, a web developer and FEU Tech student. The page provides an organized and visually appealing layout to highlight his skills, experiences, and portfolio projects. The primary goal is to create an engaging online presence that reflects Manuel's personality and technical expertise.
+
+
 
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- Landing Page
-- Feature Page
-- Navigation
+- Header
+- Profile Section
+- Projects Section
+- Footer
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -80,26 +83,153 @@ To demonstrate creative and distinct design layouts using pure HTML and CSS. The
 3. File Structure to follow
 
 ```
-WD-Seatwork-4
+WD-FinalProject
 └─ assets
 |   └─ css
 |   |   └─ style.css
 |   └─ img
 |       └─fileWith.jpeg/.jpg/.webp/.png    
 └─ pages
-|    └─feature1
+|    └─about
 |    |     └─ assets
 |    |     |  └─ css
 |    |     |  |   └─ style.css
 |    |     |  └─ img
 |    |     |      └─fileWith.jpeg/.jpg/.webp/.png
 |    |     └─ index.html
-|    └─feature2
+|    └─contact
+|    |     └─ assets
+|    |     |    └─ css
+|    |     |    |   └─ style.css
+|    |     |    └─ img
+|    |     |        └─fileWith.jpeg/.jpg/.webp/.png
+|    |     └─ index.html
+|    └─credit
+|    |     └─ assets
+|    |     |    └─ css
+|    |     |    |   └─ style.css
+|    |     |    └─ img
+|    |     |        └─fileWith.jpeg/.jpg/.webp/.png
+|    |     └─ index.html
+|    └─project
 |          └─ assets
 |          |    └─ css
 |          |    |   └─ style.css
 |          |    └─ img
 |          |        └─fileWith.jpeg/.jpg/.webp/.png
+|          └─ feat1
+|          |    └─assets
+|          |    |   └─ css
+|          |    |   |   └─ style.css
+|          |    |   └─ img
+|          |    |      └─fileWith.jpeg/.jpg/.webp/.png
+|          |    └─ index.html
+|          └─ feat2
+|          |    └─assets
+|          |    |   └─ css
+|          |    |   |   └─ style.css
+|          |    |   └─ img
+|          |    |       └─fileWith.jpeg/.jpg/.webp/.png
+|          |    └─pages
+|          |    |   └─footer-gallery
+|          |    |   |   └─assets
+|          |    |   |   |   └─ css
+|          |    |   |   |   |   └─ style.css
+|          |    |   |   |   └─ img
+|          |    |   |   |       └─fileWith.jpeg/.jpg/.webp/.png
+|          |    |   |   └─index.html
+|          |    |   └─header-gallery
+|          |    |       └─assets
+|          |    |       |   └─ css
+|          |    |       |   |   └─ style.css
+|          |    |       |   └─ img
+|          |    |       |       └─fileWith.jpeg/.jpg/.webp/.png
+|          |    |       └─index.html
+|          |    └─ index.html
+|          └─ feat3
+|          |    └─assets
+|          |    |   └─ css
+|          |    |   |   └─ style.css
+|          |    |   └─ img
+|          |    |      └─fileWith.jpeg/.jpg/.webp/.png
+|          |    └─ index.html
+|          └─ feat4
+|          |    └─assets
+|          |    |   └─ css
+|          |    |   |   └─ style.css
+|          |    |   └─ img
+|          |    |      └─fileWith.jpeg/.jpg/.webp/.png
+|          |    └─pages
+|          |    |   └─card-gallery
+|          |    |   |   └─assets
+|          |    |   |   |   └─ css
+|          |    |   |   |   |   └─ style.css
+|          |    |   |   |   └─ img
+|          |    |   |   |   |   └─fileWith.jpeg/.jpg/.webp/.png
+|          |    |   |   |   └─ js
+|          |    |   |   |      └─ scripts.js
+|          |    |   |   └─index.html
+|          |    |   └─hero-gallery
+|          |    |       └─hero-1
+|          |    |       |   └─assets
+|          |    |       |   |   └─ css
+|          |    |       |   |   |   └─ style.css
+|          |    |       |   |   └─ img
+|          |    |       |   |       └─fileWith.jpeg/.jpg/.webp/.png
+|          |    |       |   └─index.html
+|          |    |       └─hero-2
+|          |    |       |   └─assets
+|          |    |       |   |   └─ css
+|          |    |       |   |   |   └─ style.css
+|          |    |       |   |   └─ img
+|          |    |       |   |       └─fileWith.jpeg/.jpg/.webp/.png
+|          |    |       |   └─index.html
+|          |    |       └─hero-3
+|          |    |       |   └─assets
+|          |    |       |   |   └─ css
+|          |    |       |   |   |   └─ style.css
+|          |    |       |   |   └─ img
+|          |    |       |   |       └─fileWith.jpeg/.jpg/.webp/.png
+|          |    |       |   └─index.html
+|          |    |       └─hero-4
+|          |    |       |   └─assets
+|          |    |       |   |   └─ css
+|          |    |       |   |   |   └─ style.css
+|          |    |       |   |   └─ img
+|          |    |       |   |   |   └─fileWith.jpeg/.jpg/.webp/.png
+|          |    |       |   |   └─ js
+|          |    |       |   |      └─ scripts.js
+|          |    |       |   └─index.html
+|          |    |       └─hero-5
+|          |    |           └─assets
+|          |    |           |   └─ css
+|          |    |           |   |   └─ style.css
+|          |    |           |   └─ img
+|          |    |           |       └─fileWith.jpeg/.jpg/.webp/.png
+|          |    |           └─index.html
+|          |    └─index.html
+|          └─ feat5
+|          |    └─assets
+|          |    |   └─ css
+|          |    |   |   └─ style.css
+|          |    |   └─ img
+|          |    |      └─fileWith.jpeg/.jpg/.webp/.png
+|          |    └─ pages
+|          |    |   └─feature1
+|          |    |   |   └─assets
+|          |    |   |   |   └─ css
+|          |    |   |   |   |   └─ style.css
+|          |    |   |   |   └─ img
+|          |    |   |   |       └─fileWith.jpeg/.jpg/.webp/.png
+|          |    |   |   └─ index.html
+|          |    |   └─feature2
+|          |    |       └─assets
+|          |    |       |   └─ css
+|          |    |       |   |   └─ style.css
+|          |    |       |   └─ img
+|          |    |       |       └─fileWith.jpeg/.jpg/.webp/.png
+|          |    |       └─ index.html
+|          |    └─ index.html
 |          └─ index.html
 └─ index.html
 └─ readme.md
