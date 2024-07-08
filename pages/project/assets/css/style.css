@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d;
+    color: #fff;
+}
+.background {
+    position: fixed;
+    object-fit: cover;
+    opacity: 0.2;
+    z-index: -1;
+
+    img {
+    width: auto;
+    height: 125vh;
+}
+}
+
+.animatedheader-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4d094d8f;
+    color: #fff;
+
+    .animatedlogo5 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+
+        &:hover {
+
+            .logo {
+                transform: scale(1.5);
+            }
+      
+            h1 {
+              color: #ffffff;
+              transform: translateX(-100px);
+            }
+          }
+        }
+          .logo{
+            height: 50px;
+            padding: 0.2rem 0;
+            transition: all 0.5s ease;
+          }
+      
+          h1 {
+            color: transparent;
+            transform: translateX(-5rem);
+            transition: all 0.5s ease;
+          }
+    
+    
+        nav ul {
+        display: flex;
+        list-style: none;
+    }
+    
+        nav ul li {
+        margin-right: 20px;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: scale(0.8);
+    }
+}
+        nav ul li a {
+        font-weight: 600;
+        text-decoration: none;
+        color: #fff;
+        cursor: pointer;
+        transition: color 0.3s ease;
+
+        &:hover {   
+            color: #dbd4d4;         
+    }
+}
+}
+    
+.features {
+    align-items: center;
+    padding: 20rem;
+
+    & .cards-container {
+        display: flex;
+        gap: 2.5rem;
+        justify-content: center;
+
+        & .card {
+            border-radius: 5px;
+            width: 15rem;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            transition: all 0.5s ease;
+
+            &:hover {
+                box-shadow: 0 0 50px rgba(1, 255, 22);
+                background-color: #c01f6f00;
+                color: #00ff00;
+                transform: scale(0.9);
+            }
+        & img {
+            background-color: #333;
+            height: 20rem;
+            width: 15rem;
+            object-fit: cover;
+            border-radius: 5px;
+            transition: all 0.5s ease;
+
+            &:hover {
+                  transform: scale(0.9);
+                  filter: brightness(0.5); 
+          }
+        }
+    }
+}
+}
+
+.footer {
+    display: absolute;
+    background-color: #1a1a1a;
+    color: #00ff00;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
