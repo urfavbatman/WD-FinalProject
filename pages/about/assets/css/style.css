@@ -10,7 +10,9 @@ body {
     padding: 0;
     background-color: #0d0d0d;
     color: #fff;
+    width: 100%;
 }
+
 .background {
     position: fixed;
     object-fit: cover;
@@ -18,11 +20,11 @@ body {
     z-index: -1;
 
     img {
-    width: auto;
-    height: 125vh;
+    max-width: 100%;
+    min-height: 150vh;
+    
 }
 }
-
 
 .animatedheader-5 {
     display: flex;
@@ -94,7 +96,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 90vh;
     padding: 20px;
     
 
@@ -102,11 +103,9 @@ body {
         font-family: "Trebuchet MS", sans-serif;    
         display: flex;
         background-color: #262626;
-        max-width: 900px;
-        max-height: 59rem;
+        max-width: 50%;
         box-shadow: 0 0 10px #00ff00;    
         border-radius: 15px;
-        margin: 30px auto;
         color: #fff;
     }
 
@@ -114,12 +113,12 @@ body {
             background-color: #1a1a1a;
             color: #00ff00;
             padding: 20px;
-            width: 35%;
+            max-width: 35%;
             border-right: 2px solid #00ff00;
         
         img {
-            margin-left: 55px;
-            width: 10rem;
+            display: flex;
+            max-width: 10rem;
             border-radius: 20px;
             transition: all 0.8s ease;
 
@@ -187,13 +186,11 @@ body {
 }
 
 }
+
 .footer {
-    display: absolute;
     background-color: #1a1a1a;
     color: #00ff00;
     text-align: center;
     padding: 10px 0;
-    position: absolute;
     width: 100%;
-    bottom: 0;
 }

@@ -10,6 +10,7 @@ body {
     padding: 0;
     background-color: #0d0d0d;
     color: #fff;
+    width: 100%;
 }
 .background {
     position: fixed;
@@ -18,8 +19,9 @@ body {
     z-index: -1;
 
     img {
-    width: auto;
-    height: 125vh;
+    max-width: 100%;
+    min-height: 150vh;
+    
 }
 }
 
@@ -93,7 +95,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    min-height: 80vh;
     padding: 20px;
 
     .container {
@@ -101,7 +103,8 @@ body {
     background-color: #1a1a1a;
     padding: 20px;
     border-radius: 10px;
-    max-width: 900px;
+    max-width: 50%;
+    min-height: 100%;
     box-shadow: 0 0 10px rgba(1, 255, 22, 0.486);
 
 
@@ -110,7 +113,6 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
-
 
         img {
             width: 10rem;
@@ -123,6 +125,7 @@ body {
             }
         }
         }
+
     .profile-right {
         flex: 2;
         padding: 20px;

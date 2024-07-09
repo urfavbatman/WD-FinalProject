@@ -13,6 +13,7 @@ body {
     overflow-x: hidden;
     width: 100%;
 }
+
 .background {
     position: fixed;
     object-fit: cover;
@@ -20,8 +21,9 @@ body {
     z-index: -1;
 
     img {
-    width: auto;
-    height: 125vh;
+    max-width: 100%;
+    min-height: 150vh;
+    
 }
 }
 

@@ -12,17 +12,17 @@ body {
     color: #fff;
     width: 100%;
 }
+
 .background {
     position: fixed;
     object-fit: cover;
     opacity: 0.2;
     z-index: -1;
-    
-
 
     img {
-    width: auto;
-    height: 125vh;
+    max-width: 100%;
+    min-height: 150vh;
+    
 }
 }
 
