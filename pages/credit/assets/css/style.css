@@ -10,6 +10,7 @@ body {
     padding: 0;
     background-color: #0d0d0d;
     color: #fff;
+    width: 100%;
 }
 .background {
     position: fixed;
@@ -91,34 +92,32 @@ body {
 
 .credits {
     text-align: center;
-    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
 
         h1 {
             margin-top: 20rem;
-        color: #00ff00;
+            color: #00ff00;
     }
 
     .logos {
+        justify-content: center;
+        flex-wrap: wrap;
         display: flex;
-        gap: 50px;
-        justify-content: space-evenly;
-        align-items: center;
-        margin-top: 20rem;
+        gap: 5rem;
 
         a{
-   
-        width: 100px;
-        height: 100px;
+        max-width: 100%;
+        max-height: 100px;
         align-content: center;
     }
 
         img {
+        margin-top: 60px;
         background-color: #223a224b;
-        max-width: 250%;
-        max-height: 100%;
+        max-width: 100%;
+        max-height: 100px;
         transition: all 0.8s ease;  
         border-radius: 5px;
                 &:hover{
@@ -130,14 +129,40 @@ body {
 }
 }
 
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17.7rem;
+    
+    .social-icons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+
+    a img {
+        flex-wrap: wrap;
+        max-width: 30px;
+        height: auto;
+        background-color: #11d864;
+        border-radius: 15px;
+        transition: all 0.8s ease;
+        
+        &:hover{
+            transform: scale(1.1);
+            box-shadow: 0 0 5px rgb(1, 255, 22);
+        }
+}
+}
+}
+
 
 .footer {
-    display: absolute;
+    margin-top: 1.08rem;
     background-color: #1a1a1a;
     color: #00ff00;
     text-align: center;
     padding: 10px 0;
-    position: absolute;
     width: 100%;
-    bottom: 0;
 }

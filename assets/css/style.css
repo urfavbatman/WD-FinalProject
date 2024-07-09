@@ -166,14 +166,12 @@ body {
     }
     }
 
-.footer {
-    display: absolute;
-    background-color: #1a1a1a;
-    color: #00ff00;
-    text-align: center;
-    padding: 10px 0;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-}
 
+    .footer {
+        margin-top: 5.78rem;
+        background-color: #1a1a1a;
+        color: #00ff00;
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+    }

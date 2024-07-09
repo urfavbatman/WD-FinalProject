@@ -10,6 +10,8 @@ body {
     padding: 0;
     background-color: #0d0d0d;
     color: #fff;
+    overflow-x: hidden;
+    width: 100%;
 }
 .background {
     position: fixed;
@@ -65,6 +67,7 @@ body {
         nav ul {
         display: flex;
         list-style: none;
+        
     }
     
         nav ul li {
@@ -83,26 +86,26 @@ body {
         transition: color 0.3s ease;
 
         &:hover {   
-            color: #dbd4d4;         
+            color:rgba(1, 255, 22, 0.712); 
     }
 }
 }
     
 .features {
-    align-items: center;
-    padding: 20rem;
+    display: flex;
+    justify-content: center;
 
     & .cards-container {
-        display: flex;
-        gap: 2.5rem;
         justify-content: center;
+        margin-top: 20rem;
+        flex-wrap: wrap;
+        gap: 2.5rem;
+        display: flex;
 
         & .card {
             border-radius: 5px;
             width: 15rem;
             display: flex;
-            justify-content: center;
-            flex-direction: column;
             transition: all 0.5s ease;
 
             &:hover {
@@ -128,13 +131,39 @@ body {
 }
 }
 
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17.7rem;
+    
+    .social-icons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+
+    a img {
+        flex-wrap: wrap;
+        max-width: 30px;
+        height: auto;
+        background-color: #11d864;
+        border-radius: 15px;
+        transition: all 0.8s ease;
+        
+        &:hover{
+            transform: scale(1.1);
+            box-shadow: 0 0 5px rgb(1, 255, 22);
+        }
+}
+}
+}
+
 .footer {
-    display: absolute;
+    margin-top: 1.08rem;
     background-color: #1a1a1a;
     color: #00ff00;
     text-align: center;
     padding: 10px 0;
-    position: absolute;
     width: 100%;
-    bottom: 0;
 }
