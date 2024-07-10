@@ -163,6 +163,7 @@ body {
 
 .footer {
     margin-top: 1.08rem;
+    bottom: 0;
     background-color: #1a1a1a;
     color: #00ff00;
     text-align: center;
