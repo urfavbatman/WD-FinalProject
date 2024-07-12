@@ -240,5 +240,9 @@ WD-FinalProject
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Dota 2 Official Website | Offer official information about the game, updates, news, and links to download and play Dota 2. | dota2.com/home |
-| God of War Website  | Narrative, world-building, visuals, combat system, and the deep, evolving relationship between Kratos and Atreus. | https://www.playstation.com/en-us/god-of-war/ |
+| Dota 2 Official Website | Offer official information about the game, updates, news, and links to download and play Dota 2. | https://www.dota2.com/home |
+| God of War Website | Narrative, world-building, visuals, combat system, and the deep, evolving relationship between Kratos and Atreus. | https://www.playstation.com/en-us/god-of-war/ |
+| Yamaha R1 Official Website | Provides comprehensive information about the Yamaha R1 motorcycle, including specifications, features, technology, and purchasing options. | https://https://yamahamotorsports.com/models/yzf-r1 |
+| Formspree | Easily add backend support to your HTML forms. Handles form submissions, spam protection, and email notifications without server-side code. | https://formspree.io |
+| Boxicons | A free, carefully crafted collection of open-source icons for use in web projects. Includes various styles and formats. | https://boxicons.com |
+| W3Schools | Offers tutorials, references, and examples for HTML, CSS, JavaScript, and more.. | https://www.w3schools.com |
